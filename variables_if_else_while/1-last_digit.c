@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - xd
  *
  * This program prints if a random number is positive, negative
  * or is zero.
@@ -18,8 +18,8 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	u = n % 10;
-	printf("Last digit of %d is %d ", n, u);	
-	if (u > 5) 
+	printf("Last digit of %d is %d ", n, u);
+	if (u > 5)
 	{
 		printf("and is greater than 5");
 	}
