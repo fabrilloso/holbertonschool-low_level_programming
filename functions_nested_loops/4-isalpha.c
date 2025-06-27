@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code.
+ * _isalpha - a function that checks for alphabetic character
  *
- * Return: Always 0.
+ * @c: abcdfg takatakamain
+ *
+ * Return: Always 0 (success)
  */
 int _isalpha(int c)
 {
@@ -12,8 +14,8 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-
-	else {
+	else
+	{
 		return (0);
 	}
 }
